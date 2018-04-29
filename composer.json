@@ -1,0 +1,23 @@
+{
+    "name": "sos-solution/other-framework",
+    "description": "Symfony, Zend Framework 1, Zend Framework 2",
+    "type": "library",
+    "homepage" : "https://github.com/sos-solution/sos-http-application",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": "^5.4||^7.0"
+    },
+    "autoload": {
+        "files": [],
+        "psr-0": {
+            "Zend_"       : "zend1"
+        },
+        "psr-4": {
+            "Zend\\"      : ["zend2"],
+            "Symfony\\"   : ["Symfony"]
+        },
+        "classmap": [
+            "Symfony/Component/Intl/Resources//stubs"
+        ]
+    }
+}
