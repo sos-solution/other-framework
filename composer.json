@@ -19,5 +19,6 @@
         "classmap": [
             "Symfony/Component/Intl/Resources//stubs"
         ]
-    }
+    },
+    "include-path": ["zend1"],
 }
